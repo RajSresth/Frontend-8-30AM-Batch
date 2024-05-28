@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+div{
+    padding:20px ;
+    width:70%;
+    height: 70%;
+    background-color:#90e0ef;   
+    text-align:;
+}
+div>h2{
+    text-align: center;    
+    text-transform: capitalize;
+    word-spacing: 30px;
+}
+div>p{
+    text-align: justify;
+    line-height: 30px;
+}
+div>h2:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+}
+div>article{    
+    text-align: end;
+    
+}
+div>article>a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 10px;
+}
+div>article>a:hover{
+    text-decoration:2.5px solid underline red;
+    color: rgb(47, 111, 47);
+    text-underline-offset:-25px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldset and Legend Tag</title>
+    <style>
+      fieldset {
+        width: 360px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset disabled>
+        <legend>Teacher's Login Form</legend>
+        <label for="email"> Email <input type="email" id="email" /> </label>
+        <br /><br />
+        <label for="pass"> Password <input type="password" /> </label>
+        <br /><br />
+        <input type="submit" value="Login" />
+        <input type="reset" value="Cancel" />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Student's Login Form</legend>
+
+        <label for="s-Id"
+          >Student Id
+          <input type="email" id="s-Id" />
+        </label>
+        <br /><br />
+
+        <label for="s-pass">
+          Student Password <input type="password" id="s-pass" />
+        </label>
+        <br /><br />
+        <input type="submit" value="Login" />
+        <input type="reset" value="Cancel" />
+      </fieldset>
+    </form>
+  </body>
+</html>

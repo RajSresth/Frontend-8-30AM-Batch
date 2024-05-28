@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #000;    
+}
+div{
+    color: white;
+    font-size: 105px;
+    text-shadow: -200px -150px 0px orange,
+                 200px  150px 0px green;
+}

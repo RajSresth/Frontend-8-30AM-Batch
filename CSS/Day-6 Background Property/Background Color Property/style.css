@@ -1,0 +1,11 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightseagreen;
+}
+div{
+    /* background-color: crimson; */
+    /* background-color:#e7c6ff; */
+    height: 350px;
+    width: 600px;
+}

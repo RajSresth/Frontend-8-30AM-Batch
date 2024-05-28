@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table (Part-4)</title>
+    <style>
+        html,body{
+            background-color: black;
+        }
+        table,tr,th,td{
+            border-collapse: collapse;
+            border:2px solid white;
+        }
+        thead{
+            background-color: rgb(90, 32, 147);
+            color: white;
+        }
+        tbody{
+            background-color: rgb(3, 108, 104);
+            color: white;
+        }
+        tfoot{
+            color: white;
+            background-color: rgb(0, 77, 153);
+        }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellpadding="15px" align="center">
+      <thead>
+        <tr >
+            <th>S.no</th>
+            <th>Course</th>
+            <th>Price</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr align="center">
+            <td>1.</td>
+            <td>Web Technology</td>
+            <td>10000</td>
+          </tr>
+          <tr align="center">
+            <td>2.</td>
+            <td>Java</td>
+            <td>15000</td>
+          </tr>
+          <tr align="center">
+            <td>3.</td>
+            <td>SQL</td>
+            <td>10000</td>
+          </tr>
+      </tbody>
+     <tfoot>
+        <tr align="center">
+            <td colspan="2">Total Price</td>
+            <td>35000/-</td>
+          </tr>
+     </tfoot>
+    </table>
+  </body>
+</html>

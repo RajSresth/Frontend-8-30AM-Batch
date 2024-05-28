@@ -1,0 +1,18 @@
+/* article+div{
+    color: magenta;
+} */
+
+/* article+div+span{
+    color: yellowgreen;
+} */
+
+Article~div,
+Article~span,
+Article~p{
+    background-color: purple;
+    color: white;
+}
+
+
+
+

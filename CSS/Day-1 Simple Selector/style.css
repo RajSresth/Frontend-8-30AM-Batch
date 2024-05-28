@@ -1,0 +1,31 @@
+/* tag Name / Element Selector */
+/* div{
+    color: blue;
+} */
+
+/* Id Selector */
+/* #div1{
+    color: blue;   
+} */
+
+/* Class Selector */
+/* .div-2{
+    color: magenta;
+} */
+
+/* universal Selector */
+/* *{
+    color: greenyellow;
+    background-color: black;
+} */
+
+
+/* Grouping Selector */
+
+.div-1,Article{
+    color: salmon;
+}
+
+#div2,span{
+    color: purple;
+}

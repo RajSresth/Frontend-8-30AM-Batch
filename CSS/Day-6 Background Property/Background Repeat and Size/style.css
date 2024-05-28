@@ -1,0 +1,23 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+div{
+    width: 600px;
+    height: 400px;
+    border: 3px solid black;
+    background-image: url('https://staticimg.amarujala.com/assets/images/2016/10/28/lord-hanuman_1477623675.jpeg'),
+     url('https://staticimg.amarujala.com/assets/images/2016/10/28/lord-hanuman_1477623675.jpeg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size:1300px  600px; */
+    background-size: 150px 150px,
+                        200px 200px;
+
+    background-position:top 30px left 50px,
+                        bottom 30px right 50px;
+}

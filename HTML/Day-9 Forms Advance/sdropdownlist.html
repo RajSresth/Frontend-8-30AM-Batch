@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown List/Select List</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Registration Form</legend>
+        User Name <input type="text" name="userName" /> <br /><br />
+        Password <input type="password" name="userPassword" /> <br /><br />
+
+        <!-- <label for="userYOP">Mention your yop details</label> <br />
+        <select name="user-yop-year" id="userYOP">
+          <option value="" disabled selected>--select yop--</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+        </select> -->
+        <br /><br />
+
+        <select name="food-items" id="">
+            <option value="" disabled selected>--Select Food Items</option>
+          <optgroup label="Veg-Items">
+            <option value="">Rajma Chawal</option>
+            <option value="">Kadhi Chawal</option>
+            <option value="">Aloo Paratha</option>
+            <option value="">Paneer paratha</option>
+          </optgroup>
+
+          <optgroup label="Non-veg Items">
+            <option value="">Chicken Biryani</option>
+            <option value="">Chicken Korma</option>
+            <option value="">Fish</option>
+          </optgroup>
+        </select>
+
+        <input type="submit" value="Login" />
+        <input type="reset" value="Cancel" />
+      </fieldset>
+    </form>
+  </body>
+</html>

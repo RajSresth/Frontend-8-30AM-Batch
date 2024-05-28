@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;    
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.top-section{
+    width: 100%;
+    height:100vh;
+    background-image: url('https://img.veenaworld.com/wp-content/uploads/2023/01/shutterstock_2044050407.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* navigation bar */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(4px);
+}
+
+nav .logo{
+ color: black;   
+ font-size: 45px;
+ font-weight: 600;
+ cursor: pointer;
+}
+nav .nav-links{
+    font-size: 22px;    
+}
+nav .nav-links a{
+    margin-right: 25px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav .nav-links a:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.hero-section{
+    width: 100%;
+    padding: 70px 150px;
+    background-color: #515151;
+}
+article{
+    background-color: rgba(251, 251, 251, 0.717);
+    padding: 50px 70px;
+    margin-bottom: 80px;
+}
+.hero-section article h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.hero-section article p{
+    font-size: 22px;
+    text-align: justify;
+}
+.hero-section button{
+    padding: 18px 55px;
+    margin-top: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(171, 11, 11);
+    color: white;
+    font-weight: 500;
+    border-radius: 7.5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    word-spacing: 2.5px;
+}

@@ -1,0 +1,23 @@
+/* Descendent Selector */
+
+
+/* article p{
+    background-color: purple;
+    color: white;
+} */
+
+/* Direct Child Selector (>) */
+article>p{
+    background-color: salmon;
+    color: white;
+}
+
+article>main>p{
+    background-color: deeppink;
+    color: white;
+}
+
+main>p{
+    background-color: deepskyblue;
+    color: white;
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* div{
+    font-size: 105px;
+  background-image: url('https://i.pinimg.com/736x/c6/fd/e2/c6fde2efbb37ee0a06df1c5312bfa47b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+} */
+
+div{
+    font-size: 105px;
+    background-image: radial-gradient(circle at center,#4895ef,#e4c1f9,#f72585);
+    color: transparent;
+   
+}
+

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-1{
+    background-image: url('https://i.ytimg.com/vi/o4ZtovKbSwM/maxresdefault.jpg');
+}
+.section-2{
+    background-image: url('https://i.ytimg.com/vi/wazAByBxpwI/maxresdefault.jpg');
+}
+.section-3{
+    background-image: url('https://i.ytimg.com/vi/jZikXIrkmzU/maxresdefault.jpg');
+}
+.section-4{
+    background-image: url('https://i.ytimg.com/vi/hZ0nPWKBezo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBNXiD5y8umnayNL-O4GY52WteCA');    
+}
+.section-5{
+    background-image: url('https://i.ytimg.com/vi/fAJYBEoJYho/maxresdefault.jpg');    
+}
+.section-6{
+    background-image: url('https://i0.wp.com/ytimg.googleusercontent.com/vi/BApaeuccZA8/maxresdefault.jpg');    
+}

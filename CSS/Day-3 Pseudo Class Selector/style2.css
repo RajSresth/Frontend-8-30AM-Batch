@@ -1,0 +1,17 @@
+/* article :first-child{
+    color: orange;
+}
+
+
+article>:last-child
+{
+    color: red;
+}
+
+article>:nth-child(5){
+    color: turquoise;
+} */
+
+article :nth-child(odd){
+    color: lightgreen;
+}

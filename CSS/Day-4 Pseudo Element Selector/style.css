@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #000;
+}
+
+
+
+/* div::first-letter{
+    font-size: 40px;
+    color: deepskyblue;
+    font-style: italic;
+}
+
+p::first-line{
+    font-style: italic;
+    color: coral;
+    font-size: 25px;
+}
+
+::selection{
+    background-color: rgb(8, 138, 8);
+    color: white;
+} */
+
+/* ul>:nth-child(odd)::marker{
+    content: "😒";
+}
+ul>:nth-child(even)::marker{
+        content: "😍 ";
+}
+
+ul>:nth-child(9)::marker{
+    content: '🤢 ';
+}
+ul>li:nth-of-type(11)::marker{
+    content: "🤮 ";
+} */
+
+div{
+    color: white;
+}
+div::before{
+    content: "Ram Ram ";
+    color: coral;
+}
+div::after{
+    content: " Sareyane...💐";
+    color:green;
+}

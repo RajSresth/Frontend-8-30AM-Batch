@@ -1,0 +1,15 @@
+div{
+    color: mediumseagreen;
+}
+
+.div-1{
+    color: deeppink;
+}
+
+#div1{
+    color: salmon;
+}
+
+*{
+    color: black !important;
+}

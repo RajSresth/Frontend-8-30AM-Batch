@@ -1,0 +1,25 @@
+/* Not Visited */
+a:link{
+    color: orange;
+}
+
+/* active */
+a:active{
+    color: yellowgreen;
+}
+
+/* visited */
+a:visited{
+    color: deeppink;
+}
+
+/* :hover */
+a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 25px;
+}

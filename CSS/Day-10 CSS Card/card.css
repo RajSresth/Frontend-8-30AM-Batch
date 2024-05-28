@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.card-container{
+    width: 100%;
+    height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/high-angle-beautiful-buildings-nighttime_23-2149444909.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    padding: 100px 150px 0;
+}
+.card-1{
+    width: 350px;
+    height: auto;
+    background-color: rgba(0, 255, 255, 0.384);
+    padding: 25px;
+}
+.card-1:hover{
+    backdrop-filter: blur(4px);    
+    box-shadow: 1px 1px 15px 0 rgba(205, 201, 201, 0.8);
+    cursor: pointer;
+}
+.card-1 .profile-pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    /* border: 4px solid aqua; */
+    margin: auto;
+    background-image: url('https://static.toiimg.com/photo/107885952/107885952.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.card-1 .name{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.card-1 .card-content{
+    font-size: 20px;
+    text-align: justify;
+}
+.card-1 .links{
+    margin:30px 0 10px;    
+    text-align: center;
+}
+.card-1 a{
+    text-decoration: none;
+    background-color: rgb(3, 148, 221);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+}

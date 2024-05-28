@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+@font-face {
+    font-family:'chombu';
+    src: url('./Fonts/Poppins/Poppins-Medium.ttf');
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+div{
+    font-size: 155px;
+    /* font-variant: normal; */
+    /* font-style: oblique -60deg; */
+    font-weight:700;
+    font-family: chombu;   
+}

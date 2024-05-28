@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    background-color: lightblue;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    left: 340px;
+    border: 2px solid black;
+    position: relative;
+}
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.child-1{
+    background-color: purple;
+    position: absolute;
+    right: 0;
+}
+.child-2{
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.child-3{
+    background-color: mediumseagreen;
+    position: absolute;
+    bottom: 0;
+}
+.child-4{
+    background-color: rgb(2, 122, 162);
+}

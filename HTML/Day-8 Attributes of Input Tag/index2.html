@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      sup {
+        color: red;
+        font-weight: bold;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      Email<sup>*</sup> <input type="email" name="userEmail" required />
+      <br /><br />
+      Password<sup>*</sup>
+      <input type="password" name="userPassword" required /> <br /><br />
+
+      Company Name
+      <input type="text" name="companyNm" value="XYZ Pvt. Ltd." readonly />
+      <br /><br />
+
+      location
+      <input
+        type="text"
+        name="comp-location"
+        value="pune"
+        disabled
+      /><br /><br />
+
+      <input type="submit" value="Login" />
+      <input type="reset" value="cancel" />
+    </form>
+  </body>
+</html>

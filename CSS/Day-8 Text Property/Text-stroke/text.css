@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 155px;
+    display: grid;
+    place-items: center;
+}
+span{
+    font-weight: bold;
+}
+.span1{
+    -webkit-text-stroke: 3.5px orange;
+    color: transparent;
+}
+.span2{
+    -webkit-text-stroke: 3.5px white;
+    color: transparent;
+}
+.span3{
+    color: transparent;
+    -webkit-text-stroke: 3.5px green;
+}

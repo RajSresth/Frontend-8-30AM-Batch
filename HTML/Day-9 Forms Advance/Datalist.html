@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datalist in HTMl</title>
+  </head>
+  <body>
+    <form action="#">
+      Email <input type="email" name="user-email" /><br /><br />
+      Password <input type="password" name="user-password" /><br /><br />
+
+      Mention your state name<br />
+      <input
+        type="text"
+        placeholder="Enter your state name"
+        name="user-state-name"
+        list="state-list"
+      />
+      <datalist id="state-list">
+        <option value="Uttar Pradesh"></option>
+        <option value="Haryana"></option>
+        <option value="Uttarakhand"></option>
+        <option value="Himachal Pradesh"></option>
+        <option value="Andhra Pradesh"></option>
+        <option value="Maharashtra"></option>        
+      </datalist>
+
+      <br /><br />
+      <input type="submit" value="Login" />
+      <input type="reset" value="Cancel" />
+    </form>
+  </body>
+</html>
