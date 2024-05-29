@@ -30,7 +30,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
     top: 0;
     backdrop-filter: blur(4px);
 }
@@ -62,6 +62,7 @@ nav .nav-links a:hover{
     width: 100%;
     padding: 70px 150px;
     background-color: #515151;
+    position: relative;
 }
 article{
     background-color: rgba(251, 251, 251, 0.717);
@@ -103,4 +104,22 @@ footer{
     justify-content: center;
     font-size: 25px;
     word-spacing: 2.5px;
+}
+
+/* Designing chat icon */
+.chat-icon{
+    width: 180px;
+    height: 70px;
+    border-radius: 35px 0 0 35px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:deeppink ;
+    font-size: 18px;
+    font-weight: 600;    
+    position: fixed;
+    right: 10px;
+    bottom: 30px;    
+    color: white;
 }
