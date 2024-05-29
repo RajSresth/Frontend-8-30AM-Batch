@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.card-container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+/* card-1 */
+.card-1{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding: 20px 0 0 0;
+    box-shadow: 0px 0px 12px 2px rgba(255,255,255);
+    position: absolute;
+    z-index: 3;
+}
+.card-1:hover{
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.886);
+    cursor: pointer;
+
+}
+.card-1 .card-top{
+    width: 100%;
+    height: 80%;
+    /* border: 3px solid red;     */
+    
+}
+.card-top .profile{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url('https://cdn.britannica.com/73/182873-050-E1C686F4/Chris-Hemsworth-Thor-Thor-The-Dark-World.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -110px center;
+}
+.card-1 .card-bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;    
+
+    
+}
+.card-bottom div{
+    text-align: center;
+    font-size: 20px;
+    /* width: 60%; */
+    background-color: #0a5ac9;
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* card-2 */
+.card-2{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding: 20px 0 0 0;
+    box-shadow: 0px 0px 12px 2px rgba(255,255,255);
+    position: absolute;
+    z-index: 2;
+    left: 680px;
+    top: 90px;
+}
+.card-2:hover{
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.886);
+    cursor: pointer;
+}
+.card-2 .card-top{
+    width: 100%;
+    height: 80%;
+    /* border: 3px solid red;     */
+    
+}
+.card-2 .card-top .profile{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/736x/b5/35/5e/b5355e20ca4e6c7938b8fb3d009bf304.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.card-2 .card-bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;    
+
+    
+}
+.card-bottom div{
+    text-align: center;
+    font-size: 20px;
+    /* width: 60%; */
+    background-color: #0a5ac9;
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* card-3 */
+.card-3{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding: 20px 0 0 0;
+    box-shadow: 0px 0px 12px 2px rgba(255,255,255);
+    position: absolute;
+    z-index: 1;
+    left: 750px;
+    top: 30px;
+}
+.card-3:hover{
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.886);
+    cursor: pointer;
+}
+.card-3 .card-top{
+    width: 100%;
+    height: 80%;
+    /* border: 3px solid red;     */
+    
+}
+.card-3 .card-top .profile{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/03/ben-affleck-batman-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-3 .card-bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;    
+
+    
+}
+.card-bottom div{
+    text-align: center;
+    font-size: 20px;
+    /* width: 60%; */
+    background-color: #0a5ac9;
+    display: inline-block;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
