@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    border: 4px solid white;
+}
+.child{
+    width: 220px;
+    height: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: 48px;
+    color: white;
+}
+.ease{
+    background-color: lightcoral;
+    transition-property:width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.child:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.ease-in{
+    background-color: mediumvioletred;
+    transition-property:width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    background-color: mediumseagreen;
+    transition-property:width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    background-color: rgb(4, 88, 255);
+    transition-property:width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+.linear{
+    background-color: indigo;
+    transition-property:width;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}

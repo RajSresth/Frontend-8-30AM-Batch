@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame{
+    width: 890px;
+    height: 480px;
+    border: 4px solid white;
+    overflow: hidden;
+}
+.frame-pic{
+    width: 100%;
+    height: 100%;
+    background: url('https://www.cartoq.com/wp-content/uploads/2021/12/Thar-dieseltronic-featured.jpg') no-repeat right center ;
+    background-size: cover;
+    scale: 1;
+    transition: all 0.5s ease-in-out;
+}
+.frame:hover{
+    cursor: pointer;
+}
+.frame:hover>.frame-pic{
+    scale: 1.35;
+}
