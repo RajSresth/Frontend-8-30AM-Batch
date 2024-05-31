@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+div.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.card{
+    width: 890px;
+    height: 460px;
+    border: 3px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.card>.line{
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    animation: line 3s ease-in-out 0s alternate infinite paused;
+}
+
+@keyframes  line{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.card>.frame{
+    width: 100%;
+    height: 100%;
+    background: url('https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/2023/challenger/gallery/exterior/MY23_Challenger_Gallery_05.jpg.image.1440.jpg') no-repeat;
+    background-size: 100% 100%;
+    scale: 1;
+    animation: frame 3s ease-in-out 0s alternate infinite paused;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+@keyframes  frame{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.5;
+    }
+}
+
+/* to run an animation */
+.card:hover>.frame{
+    animation-play-state:running;
+}
+.card:hover>.line{
+    animation-play-state:running;
+}

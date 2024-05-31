@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.container{
+    width: 1200px;
+    height: 600px;
+    border: 3px solid #fff;
+}
+.container>.child{
+    width: 200px;
+    height: calc(100% / 5);
+    color: white;
+    font-size: 45px;    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ease{
+    background-color: rgb(11, 143, 99);
+    animation: box1 2s ease 0s infinite alternate;
+}
+@keyframes box1 {
+    from{
+        width:200px;
+    }   
+    to{
+        width: 100%;
+    }
+}
+.ease-in{
+    background-color: coral;
+    animation: box2 2s ease-in 0s infinite alternate;
+}
+@keyframes box2 {
+    from{
+        width:200px;
+    }   
+    to{
+        width: 100%;
+    }
+}
+.ease-out{
+    background-color: purple;
+    animation: box3 2s ease-out 0s infinite alternate;
+}
+@keyframes box3 {
+    from{
+        width:200px;
+    }   
+    to{
+        width: 100%;
+    }
+}
+.ease-in-out{
+    background-color: rgb(213, 65, 1);
+    animation: box4 2s ease-in-out 0s infinite alternate;
+}
+@keyframes box4 {
+    from{
+        width:200px;
+    }   
+    to{
+        width: 100%;
+    }
+}
+
+.linear{
+    background-color: deepskyblue;
+    animation: box5 2s linear 0s infinite alternate;
+}
+
+@keyframes box5 {
+    from{
+        width:200px;
+    }   
+    to{
+        width: 100%;
+    }
+}
