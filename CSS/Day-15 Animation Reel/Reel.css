@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.reel-container{
+    background-color: black;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    gap: 5rem;
+    padding: 100px 0;
+}
+.reel-1,.reel-2,.reel-3{
+    width: 350px;
+    height: 550px;
+    border: 1.5px solid white;
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.reel-container>.line{
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    animation: line 117s linear 0s infinite normal;
+}
+@keyframes line {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.video-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.video-container>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* reel icon container */
+.reel-icon-container{
+    /* background-color: red; */
+    width: 50px;
+    height: 240px;
+    position: absolute;
+    bottom: 10px;
+    right: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon>i{
+    font-size: 22px;
+    color: white;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.65);
+}
