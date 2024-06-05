@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;  
+}
+#about{
+    width: 100%;
+    height: 80%;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left{
+    width: 40%;
+    height: 100%;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.standout.co.uk/blog/wp-content/uploads/2018/06/Travel-Style-770x500.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(5, 19, 88);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: rgb(228, 45, 143);
+    max-width:70%;
+    height: auto;
+    padding: 20px 55px;
+}
+.content h2{
+    font-size: 45px;
+}
+.content p{
+    font-size: 25px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.btn-cotainer{
+    /* background-color: white; */
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+button{
+    padding: 15px 55px;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    color:white;
+}
+.btn-cotainer :first-child{
+    background-color: #0d6bfb;
+}
+.btn-cotainer :last-child{
+    background-color: black;
+}
+
+@media screen and (max-width:1100px) {
+    #about{
+        width: 100%;
+        height: fit-content;
+    }
+    .left{
+        width: 100%;
+        height: 400px;
+    }
+    .profile{
+        background-image: url('https://www.standout.co.uk/blog/wp-content/uploads/2018/06/Travel-Style-770x500.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .right{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
