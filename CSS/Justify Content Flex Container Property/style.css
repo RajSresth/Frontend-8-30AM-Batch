@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    border: 4px solid white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+}
+.child{
+    width: 150px;
+    height: 150px;
+}
+.item-1{
+    background-color: mediumblue;
+}
+.item-2{
+    background-color: coral;
+}
+.item-3{
+    background-color: deeppink;
+}
+
