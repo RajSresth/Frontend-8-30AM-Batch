@@ -1,0 +1,14 @@
+/* :root{
+    font-size: 10px;
+} */
+html{
+    font-size: 20px;
+}
+/* 1px=0.1rem */
+
+h2{
+    font-size: 5.5rem;
+}
+p{
+    font-size: 3rem;
+}
