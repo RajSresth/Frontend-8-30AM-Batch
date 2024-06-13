@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Roboto", sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    height: 55px;     
+    background-color: #1d75de;
+}
+.top-header{
+    margin: auto;
+    /* background-color: coral; */
+    height: 100%;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header>:last-child{
+    text-decoration: none;
+    font-weight: 530;
+    color: white;
+    font-size: 2.5rem;
+}
+.top-header>a:first-child{
+    color: white;
+    font-size:1.2rem;
+    text-decoration: underline;
+}
+/* Navbar Design */
+#navbar{
+    width: 100%;    
+    height: 80px;
+    background-color: black;    
+}
+.navbar-container{
+    margin: auto;
+    width: 1150px;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url('https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png');
+    width: 139px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 94%;
+}
+
+.desktop-nav{
+    display: flex;
+    gap: 3.85rem;
+}
+.desktop-nav>a{
+    color: white;
+    font-weight: 600;
+    font-size: 1.57rem;
+    text-decoration: none;
+}
+
+
+/* Hero Section Design */
+section{
+    width: 100%;
+    height:calc(100% - 135px) ;
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    background-size: 100% 1068px;
+    background-position: center -138px;
+}
+.hero-section-container{
+    width: 1170px;
+    height: 100%;
+    /* background-color: coral; */
+    margin: auto;
+    display: flex;
+}
+.left-mobile-container{
+    width: 468px;
+    height: 100%;
+    /* background-color: blue; */
+}
+/* Mobile Design */
+.mobile{
+    width: 281px;
+    height: calc(100% - 100px);
+    border-radius: 3.75rem 3.75rem 0 0 ;
+    background-color: white;
+    margin:100px auto 0;
+}
+.mobile .mobile-top{
+    width: 100%;
+    height: calc(100% - 440px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile .mobile-top .line{
+    width: 45px;
+    height: 5.5px;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.mobile .mobile-image-bottom{
+    width: 95%;
+    height: 440px;
+    margin: auto;
+}
+.mobile-image-bottom img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/* Right Container Inside Hero Section */
+.right-container{
+    width: calc(100% - 468px);
+    height: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+}
+/* .message-container{
+   
+} */
+.message-container h2{
+    font-size: 6.3rem;
+    color: white;
+}
+.message-container .btn{
+    width: 207px;
+    height: 48px;
+    border-radius: 3rem;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+.btn:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+    font-weight: 530;
+}
